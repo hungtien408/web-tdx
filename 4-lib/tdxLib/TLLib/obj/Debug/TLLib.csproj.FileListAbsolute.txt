@@ -1,0 +1,47 @@
+D:\Project lam viec\TLLib V2.0\TLLib\bin\Debug\TLLib.dll
+D:\Project lam viec\TLLib V2.0\TLLib\bin\Debug\TLLib.pdb
+D:\Project lam viec\TLLib V2.0\TLLib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Project lam viec\TLLib V2.0\TLLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Project lam viec\TLLib V2.0\TLLib\obj\Debug\TLLib.dll
+D:\Project lam viec\TLLib V2.0\TLLib\obj\Debug\TLLib.pdb
+D:\MyPro\nguyenhashop\Lib\TLLib\bin\Debug\TLLib.dll
+D:\MyPro\nguyenhashop\Lib\TLLib\bin\Debug\TLLib.pdb
+D:\MyPro\nguyenhashop\Lib\TLLib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\MyPro\nguyenhashop\Lib\TLLib\obj\Debug\ResolveAssemblyReference.cache
+D:\MyPro\nguyenhashop\Lib\TLLib\obj\Debug\TLLib.dll
+D:\MyPro\nguyenhashop\Lib\TLLib\obj\Debug\TLLib.pdb
+D:\Work Projects\TLLib V2.0\TLLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Work Projects\TLLib V2.0\TLLib\obj\Debug\TLLib.dll
+D:\Work Projects\TLLib V2.0\TLLib\obj\Debug\TLLib.pdb
+D:\Work Projects\TLLib V2.0\TLLib\bin\Debug\TLLib.dll
+D:\Work Projects\TLLib V2.0\TLLib\bin\Debug\TLLib.pdb
+D:\Work Projects\TLLib V2.0\TLLib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Project lam viec\TLLib V2.0\TLLib\bin\Debug\itextsharp.dll
+D:\Project lam viec\Backup\Web Template\04032013\TLLib V2.0\TLLib\bin\Debug\TLLib.dll
+D:\Project lam viec\Backup\Web Template\04032013\TLLib V2.0\TLLib\bin\Debug\TLLib.pdb
+D:\Project lam viec\Backup\Web Template\04032013\TLLib V2.0\TLLib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Project lam viec\Backup\Web Template\04032013\TLLib V2.0\TLLib\bin\Debug\itextsharp.dll
+D:\Project lam viec\Backup\Web Template\04032013\TLLib V2.0\TLLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Project lam viec\Backup\Web Template\04032013\TLLib V2.0\TLLib\obj\Debug\TLLib.dll
+D:\Project lam viec\Backup\Web Template\04032013\TLLib V2.0\TLLib\obj\Debug\TLLib.pdb
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\TLLib V2.0\TLLib\bin\Debug\TLLib.dll
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\TLLib V2.0\TLLib\bin\Debug\TLLib.pdb
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\TLLib V2.0\TLLib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\TLLib V2.0\TLLib\bin\Debug\itextsharp.dll
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\TLLib V2.0\TLLib\obj\Debug\TLLib.dll
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\TLLib V2.0\TLLib\obj\Debug\TLLib.pdb
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\TLLib V2.0\TLLib\obj\Debug\TLLib.csprojResolveAssemblyReference.cache
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\bin\Debug\TLLib.dll
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\bin\Debug\TLLib.pdb
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\bin\Debug\itextsharp.dll
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\obj\Debug\TLLib.csprojResolveAssemblyReference.cache
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\obj\Debug\TLLib.dll
+D:\Quang\4-WebTemplate\1-WebTemplate V2.0-15032013\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\obj\Debug\TLLib.pdb
+D:\Quang\GoogleDrive\abin2323\1-WebTemplate\1-WebTemplateDB25092014FixV2\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\bin\Debug\TLLib.dll
+D:\Quang\GoogleDrive\abin2323\1-WebTemplate\1-WebTemplateDB25092014FixV2\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\bin\Debug\TLLib.pdb
+D:\Quang\GoogleDrive\abin2323\1-WebTemplate\1-WebTemplateDB25092014FixV2\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Quang\GoogleDrive\abin2323\1-WebTemplate\1-WebTemplateDB25092014FixV2\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\bin\Debug\itextsharp.dll
+D:\Quang\GoogleDrive\abin2323\1-WebTemplate\1-WebTemplateDB25092014FixV2\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\obj\Debug\TLLib.csprojResolveAssemblyReference.cache
+D:\Quang\GoogleDrive\abin2323\1-WebTemplate\1-WebTemplateDB25092014FixV2\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\obj\Debug\TLLib.dll
+D:\Quang\GoogleDrive\abin2323\1-WebTemplate\1-WebTemplateDB25092014FixV2\Fix-V2.0\TLLib V2.0-Fix-V2.0\TLLib\obj\Debug\TLLib.pdb

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2611654F-5AA9-4F7B-8619-523B1F5D38F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TLLib</RootNamespace>
+    <AssemblyName>TLLib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Class Library\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Class Library\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressBook.cs" />
+    <Compile Include="AddressBook1.cs" />
+    <Compile Include="AdsBanner.cs" />
+    <Compile Include="AdsCategory.cs" />
+    <Compile Include="Article.cs" />
+    <Compile Include="ArticleCategory.cs" />
+    <Compile Include="ArticleOfSame.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="Common\MD5Hash.cs" />
+    <Compile Include="Common\ResizeCropImage.cs" />
+    <Compile Include="Common\SwfParser.cs" />
+    <Compile Include="Common\WebsiteChecker.cs" />
+    <Compile Include="Controls\FormView\CustomFormView.cs" />
+    <Compile Include="Controls\Gridview\CustomGridView.cs" />
+    <Compile Include="Common\Common.cs" />
+    <Compile Include="CareerCategory.cs" />
+    <Compile Include="Career.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="DeliveryMethods.cs" />
+    <Compile Include="District.cs" />
+    <Compile Include="ExchangeRate.cs" />
+    <Compile Include="Import\ImportExcel.cs" />
+    <Compile Include="Manufacturer1.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="MenuPosition.cs" />
+    <Compile Include="Newsletter.cs" />
+    <Compile Include="PaymentMethod.cs" />
+    <Compile Include="PayStatus.cs" />
+    <Compile Include="ProductLength.cs" />
+    <Compile Include="ProductOfLength.cs" />
+    <Compile Include="ProductOfSame.cs" />
+    <Compile Include="ProductOption.cs" />
+    <Compile Include="ProductOptionCategory.cs" />
+    <Compile Include="ProductSizeColor.cs" />
+    <Compile Include="Province.cs" />
+    <Compile Include="Service.cs" />
+    <Compile Include="ServiceCategory.cs" />
+    <Compile Include="PhotoAlbum.cs" />
+    <Compile Include="PhotoAlbumCategory.cs" />
+    <Compile Include="ProjectVideo.cs" />
+    <Compile Include="ProjectDownload.cs" />
+    <Compile Include="ProjectImage.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="ProjectCategory.cs" />
+    <Compile Include="Download.cs" />
+    <Compile Include="DownloadCategory.cs" />
+    <Compile Include="OrderStatus.cs" />
+    <Compile Include="Shipping.cs" />
+    <Compile Include="ShippingStatus.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Rating.cs" />
+    <Compile Include="Manufacturer.cs" />
+    <Compile Include="OrderDetail.cs" />
+    <Compile Include="Orders.cs" />
+    <Compile Include="Origin.cs" />
+    <Compile Include="Partner.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductCategory.cs" />
+    <Compile Include="ProductDownload.cs" />
+    <Compile Include="ProductImage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserProfile.cs" />
+    <Compile Include="Video.cs" />
+    <Compile Include="VideoCategory.cs" />
+    <Compile Include="VideoXML.cs" />
+    <Compile Include="Visitor.cs" />
+    <Compile Include="WishList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Class Library\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Class Library\itextsharp.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
