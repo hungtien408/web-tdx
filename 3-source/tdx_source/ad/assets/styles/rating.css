@@ -1,0 +1,10 @@
+﻿/* Rating */
+.rating
+{
+    border-collapse:collapse;
+}
+.rating td
+{
+    margin:0;
+    padding:0;
+}

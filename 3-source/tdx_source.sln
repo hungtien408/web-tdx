@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "tdx_source", "tdx_source\", "{7071E9A6-429B-4416-BFE6-066DCE4E1A0D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/tdx_source"
+		Debug.AspNetCompiler.PhysicalPath = "tdx_source\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\tdx_source\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/tdx_source"
+		Release.AspNetCompiler.PhysicalPath = "tdx_source\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\tdx_source\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7164"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7071E9A6-429B-4416-BFE6-066DCE4E1A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7071E9A6-429B-4416-BFE6-066DCE4E1A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,132 @@
+﻿*
+{
+    padding: 0;
+    margin: 0;
+}
+#formLogin
+{
+    background: #f1f1f1;
+    border: double 3px #555;
+    color: #555;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 50px auto;
+    padding: 20px 20px 10px;
+    overflow: hidden;
+    width: 340px;
+}
+#formLogin h1
+{
+    color: #df0002;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.tb-login
+{
+    border-collapse: collapse;
+}
+.tb-login tr td
+{
+    position: relative;
+    vertical-align: top;
+    padding: 5px 0;
+}
+#formLogin .login-col-1
+{
+    width: 100px;
+}
+#formLogin .login-col-2
+{
+    width: 240px;
+}
+#formLogin .login-lb
+{
+    color: #222;
+    display: block;
+    font-family: Arial;
+}
+#formLogin .login-text
+{
+    color: #555;
+    display: block;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+}
+#formLogin .login-text
+{
+    background: #fff;
+    border: solid 1px #999;
+    padding: 3px 9px;
+    height: 18px;
+    line-height: 18px;
+    width: 200px;
+}
+#formLogin .login-error
+{
+    display: inline-block;
+    font-size: 11px;
+    line-height: 24px;
+    text-align: center;
+    right: 0;
+    top: 5px;
+    position: absolute;
+    width: 10px;
+}
+#formLogin .login-check
+{
+    display: block;
+    line-height: 18px;
+}
+#formLogin .login-check input
+{
+    float: left;
+    margin-top: 2px;
+}
+#formLogin .login-check label
+{
+    display: block;
+    float: left;
+    padding-left: 5px;
+}
+#formLogin .forgot-link
+{
+    text-align: right;
+    line-height: 16px;
+}
+#formLogin .forgot-link a
+{
+    color: #000;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+}
+#formLogin .login-btn
+{
+    text-align: center;
+}
+#formLogin .login-btn input
+{
+    background: #df0002;
+    border: none;
+	border-radius: 5px; /* Opera 10.5+, future browsers, and now also Internet Explorer 6+ using IE-CSS3 */
+	-moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari and Chrome */
+    behavior: url(PIE.htc); 
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 18px;
+    height: 35px;
+    position: relative;
+    width: 100px;
+}
+#formLogin .login-btn input:hover
+{
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";/*IE8+*/  
+    filter: alpha(opacity=60); /* IE7 and lower */ 
+}

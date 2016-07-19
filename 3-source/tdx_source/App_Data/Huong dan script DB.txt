@@ -1,0 +1,5 @@
+Script tòan b? DB:
+Su dung SQLPubWiz.exe (C:\Program Files\Microsoft SQL Server\90\Tools\Publishing\1.4\)
+
+Chi script Proc & Function:
+Click phai vào Database/Task/Genrate Scripts...

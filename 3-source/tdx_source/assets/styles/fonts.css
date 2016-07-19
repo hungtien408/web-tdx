@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'UTMAurora';
+  src: url('../fonts/font-web/UTMAurora.woff') format('woff'),
+       url('../fonts/font-web/UTMAurora.ttf') format('truetype'),
+       url('../fonts/font-web/UTMAurora.svg#UTMAurora') format('svg'),
+       url('../fonts/font-web/UTM Aurora.eot'),
+       url('../fonts/font-web/UTM Aurora.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UTMFuturaExtra';
+  src: url('../fonts/font-web/UTMFuturaExtra.woff') format('woff'),
+       url('../fonts/font-web/UTMFuturaExtra.ttf') format('truetype'),
+       url('../fonts/font-web/UTMFuturaExtra.svg#UTMFuturaExtra') format('svg'),
+       url('../fonts/font-web/UTM Futura Extra.eot'),
+       url('../fonts/font-web/UTM Futura Extra.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/font-web/Roboto-Bold.eot');
+  src: url('../fonts/font-web/Roboto-Bold.woff') format('woff'),
+       url('../fonts/font-web/Roboto-Bold.ttf') format('truetype'),
+       url('../fonts/font-web/Roboto-Bold.svg#Roboto-Bold') format('svg'),
+       url('../fonts/font-web/Roboto-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/font-web/Roboto-Regular.eot');
+  src: url('../fonts/font-web/Roboto-Regular.woff') format('woff'),
+       url('../fonts/font-web/Roboto-Regular.ttf') format('truetype'),
+       url('../fonts/font-web/Roboto-Regular.svg#Roboto-Regular') format('svg'),
+       url('../fonts/font-web/Roboto-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
