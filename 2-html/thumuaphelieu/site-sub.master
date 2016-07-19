@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-sub.master.cs" Inherits="site_sub" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div id="site" class="corner">
+        <div class="container">
+                <a id="A1" href="~/" runat="server"><span class="fa fa-home"></span></a>/
+                <asp:ContentPlaceHolder id="cphSite" runat="server">
+                </asp:ContentPlaceHolder>
+        </div>
+    </div>
+     <div class="container">
+        <div class="wrapper-main row">
+            <div id="colAside" class="col-md-3 pull-right">
+                <section class="aside-cate">
+                    <h4>Danh mục dịch vụ</h4>
+                    <div class="aside-wrap">
+                        <ul>
+                            <li><a href="dich-vu-chi-tiet.aspx">Thu mua phế liệu</a></li>
+                            <li><a href="dich-vu-chi-tiet.aspx">Thu gom công trình</a></li>
+                            <li><a href="dich-vu-chi-tiet.aspx">Thu mua máy móc cũ</a></li>
+                            <li><a href="dich-vu-chi-tiet.aspx">Thanh lý nhà xưởng</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="aside-cate">
+                    <h4>Tin tức nổi bật</h4>
+                    <div class="aside-wrap">
+                        <ul>
+                            <li><a href="tin-tuc-chi-tiet.aspx">Tin tức 1</a></li>
+                            <li><a href="tin-tuc-chi-tiet.aspx">Tin tức 2</a></li>
+                            <li><a href="tin-tuc-chi-tiet.aspx">Tin tức 3</a></li>
+                            <li><a href="tin-tuc-chi-tiet.aspx">Tin tức 4</a></li>
+                            <li><a href="tin-tuc-chi-tiet.aspx">Tin tức 5</a></li>
+                            <li><a href="tin-tuc-chi-tiet.aspx">Tin tức 6</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="aside-cate txt-center">
+                    <h4>Thông tin công ty</h4>
+                    <div class="aside-wrap">
+                        <h3>CÔNG TY CỔ PHẦN CÔNG NGHỆ TRÁI ĐẤT XANH</h3>
+                        <p><span>Thu mua phế liệu trái đất xanh</span> là cơ sở thu mua phế liệu hoạt động lâu đời trên toàn quốc, với uy tín cao, chúng tôi luôn đáp ứng mọi nhu cầu của khách hàng tận nơi, 24/24h.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="clr visible-sm visible-xs"></div>
+            <div id="colContent" class="col-md-9">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder> 
+            </div>
+        </div>
+    </div>
+</asp:Content>
+
