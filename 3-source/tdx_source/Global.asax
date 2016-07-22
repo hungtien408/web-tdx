@@ -9,10 +9,11 @@
     void Application_Start(object sender, EventArgs e)
     {
         // Code that runs on application startup
-        //Application["HomNay"] = 0;
-        //Application["ThangNay"] = 0;
-        //Application["TatCa"] = 0;
-        //Application["visitors_online"] = 0;
+        Application["HomNay"] = 0;
+        Application["TuanNay"] = 0;
+        Application["ThangNay"] = 0;
+        Application["TatCa"] = 0;
+        Application["visitors_online"] = 0;
     }
 
     void Application_End(object sender, EventArgs e)
@@ -34,24 +35,25 @@
         //nodetoEdit.InnerText = (Int32.Parse(nodetoEdit.InnerText) + 1).ToString();
         //Application["activeUser"] = nodetoEdit.InnerText;
         //doc.Save(Server.MapPath("~/users.xml"));
-        //Session.Timeout = 150;
+        Session.Timeout = 150;
 
-        //Application.Lock();
-        //Application["visitors_online"] = Convert.ToInt32(Application["visitors_online"]) + 1;
-        //Application.UnLock();
+        Application.Lock();
+        Application["visitors_online"] = Convert.ToInt32(Application["visitors_online"]) + 1;
+        Application.UnLock();
         try
         {
-            //Visitor mthongke = new Visitor();
-            //DataTable dt = mthongke.Visitors();
+            Visitor mthongke = new Visitor();
+            DataTable dt = mthongke.Visitors();
 
-            //if (dt.Rows.Count > 0)
-            //{
-            //    Application["HomNay"] = long.Parse("0" + dt.Rows[0]["HomNay"]).ToString("#,###");
-            //    Application["ThangNay"] = long.Parse("0" + dt.Rows[0]["ThangNay"]).ToString("#,###");
-            //    Application["TatCa"] = long.Parse("0" + dt.Rows[0]["TatCa"]).ToString("#,###");
-            //}
-            //dt.Dispose();
-            //mthongke = null;
+            if (dt.Rows.Count > 0)
+            {
+                Application["HomNay"] = long.Parse("0" + dt.Rows[0]["HomNay"]).ToString("#,###");
+                Application["TuanNay"] = long.Parse("0" + dt.Rows[0]["TuanNay"]).ToString("#,###");
+                Application["ThangNay"] = long.Parse("0" + dt.Rows[0]["ThangNay"]).ToString("#,###");
+                Application["TatCa"] = long.Parse("0" + dt.Rows[0]["TatCa"]).ToString("#,###");
+            }
+            dt.Dispose();
+            mthongke = null;
         }
         catch
         {
@@ -65,9 +67,9 @@
         // is set to InProc in the Web.config file. If session mode is set to StateServer 
         // or SQLServer, the event is not raised.
         //OnlineActiveUsers.OnlineUsersInstance.OnlineUsers.UpdateForUserLeave();
-        //Application.Lock();
-        //Application["visitors_online"] = Convert.ToUInt32(Application["visitors_online"]) - 1;
-        //Application.UnLock();
+        Application.Lock();
+        Application["visitors_online"] = Convert.ToUInt32(Application["visitors_online"]) - 1;
+        Application.UnLock();
     }
 
     protected void Application_BeginRequest(Object sender, EventArgs e)

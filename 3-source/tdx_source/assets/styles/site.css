@@ -1567,13 +1567,16 @@ body .mobilep-right {
 
 .follow-ft {
 }
-
+.follow-ft p {
+    width: 230px;
+}
     .follow-ft span {
         font-family: 'Roboto-Regular';
         font-size: 13px;
         color: #464648;
         font-style: italic;
         font-weight: bold;
+        float: left;
     }
 
     .follow-ft i {

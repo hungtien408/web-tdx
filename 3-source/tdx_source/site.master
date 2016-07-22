@@ -143,10 +143,13 @@
                             <div class="col-md-6 col-xs-6">
                                 <div class="copyright-bg">
                                     <div class="follow-ft">
-                                        <span>Follow me on </span>
+                                        <%--<span>Follow me on </span>
                                         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>--%>
+                                        <p><span>Hôm nay: </span> <%=Application["HomNay"].ToString()%></p>
+                                        <p><span>Tuần này: </span> <%=Application["TuanNay"].ToString()%></p>
+                                        <p><span>Tháng này: </span> <%=Application["ThangNay"].ToString()%></p>
                                     </div>
                                     <div class="copyright">
                                         <p>&copy; Copyright 2016 - TĐX. All right reserved</p>
