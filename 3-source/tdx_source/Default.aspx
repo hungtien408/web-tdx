@@ -43,40 +43,46 @@
                     </asp:ObjectDataSource>
                 </div>
                 <div class="content-right col-md-6">
-                    <asp:ListView ID="lstDVPheLieu" runat="server" DataSourceID="odsDVPheLieu" EnableModelValidation="True">
-                        <ItemTemplate>
-                            <div class="items">
-                                <a href='<%# progressTitle(Eval("ArticleTitle")) + "-dv-" + Eval("ArticleID") + ".aspx" %>'>
-                                   <img alt='<%# Eval("ArticleTitle") %>' src='<%# !string.IsNullOrEmpty(Eval("ImageName").ToString()) ? "~/res/article/" + Eval("ImageName") : "~/assets/images/tm1.png" %>'
-                                    runat="server" />
-                                   <p><%# Eval("ArticleTitle")%></p>
-                                 </a>
-                             </div>
-                        </ItemTemplate>
-                        <LayoutTemplate>
-                        <span runat="server" id="itemPlaceholder" />
-                        </LayoutTemplate>   
-                     </asp:ListView>
-                     <asp:ObjectDataSource ID="odsDVPheLieu" runat="server" 
-                        SelectMethod="ArticleSelectAll" TypeName="TLLib.Article">
-                         <SelectParameters>
-                             <asp:Parameter Name="StartRowIndex" Type="String" />
-                             <asp:Parameter Name="EndRowIndex" Type="String" />
-                             <asp:Parameter Name="Keyword" Type="String" />
-                             <asp:Parameter Name="ArticleTitle" Type="String" />
-                             <asp:Parameter Name="Description" Type="String" />
-                             <asp:Parameter DefaultValue="4" Name="ArticleCategoryID" Type="String" />
-                             <asp:Parameter Name="Tag" Type="String" />
-                             <asp:Parameter DefaultValue="True" Name="IsShowOnHomePage" Type="String" />
-                             <asp:Parameter Name="IsHot" Type="String" />
-                             <asp:Parameter Name="IsNew" Type="String" />
-                             <asp:Parameter Name="FromDate" Type="String" />
-                             <asp:Parameter Name="ToDate" Type="String" />
-                             <asp:Parameter DefaultValue="True" Name="IsAvailable" Type="String" />
-                             <asp:Parameter Name="Priority" Type="String" />
-                             <asp:Parameter DefaultValue="True" Name="SortByPriority" Type="String" />
-                         </SelectParameters>
-                    </asp:ObjectDataSource> 
+                    <div class="slider two-rows-slide">
+                        <asp:ListView ID="lstDVPheLieu" runat="server" DataSourceID="odsDVPheLieu" EnableModelValidation="True">
+                            <ItemTemplate>
+                                <div class="items">
+                                    <a href='<%# progressTitle(Eval("ArticleTitle")) + "-dv-" + Eval("ArticleID") + ".aspx" %>'>
+                                       <img alt='<%# Eval("ArticleTitle") %>' src='<%# !string.IsNullOrEmpty(Eval("ImageName").ToString()) ? "~/res/article/" + Eval("ImageName") : "~/assets/images/tm1.png" %>'
+                                        runat="server" />
+                                       <p><%# Eval("ArticleTitle")%></p>
+                                     </a>
+                                 </div>
+                            </ItemTemplate>
+                            <LayoutTemplate>
+                            <span runat="server" id="itemPlaceholder" />
+                            </LayoutTemplate>   
+                         </asp:ListView>
+                         <asp:ObjectDataSource ID="odsDVPheLieu" runat="server" 
+                            SelectMethod="ArticleSelectAll" TypeName="TLLib.Article">
+                             <SelectParameters>
+                                 <asp:Parameter Name="StartRowIndex" Type="String" />
+                                 <asp:Parameter Name="EndRowIndex" Type="String" />
+                                 <asp:Parameter Name="Keyword" Type="String" />
+                                 <asp:Parameter Name="ArticleTitle" Type="String" />
+                                 <asp:Parameter Name="Description" Type="String" />
+                                 <asp:Parameter DefaultValue="4" Name="ArticleCategoryID" Type="String" />
+                                 <asp:Parameter Name="Tag" Type="String" />
+                                 <asp:Parameter DefaultValue="True" Name="IsShowOnHomePage" Type="String" />
+                                 <asp:Parameter Name="IsHot" Type="String" />
+                                 <asp:Parameter Name="IsNew" Type="String" />
+                                 <asp:Parameter Name="FromDate" Type="String" />
+                                 <asp:Parameter Name="ToDate" Type="String" />
+                                 <asp:Parameter DefaultValue="True" Name="IsAvailable" Type="String" />
+                                 <asp:Parameter Name="Priority" Type="String" />
+                                 <asp:Parameter DefaultValue="True" Name="SortByPriority" Type="String" />
+                             </SelectParameters>
+                        </asp:ObjectDataSource> 
+                    </div>
+                    <div class="clr"></div>
+                    <div class="img-special">
+                        <img src="assets/images/h6.jpg" alt="" />
+                    </div>
                 </div>
                 <div class="clr"></div>
                 <div class="col-md-12">
@@ -185,6 +191,10 @@
                              <asp:Parameter DefaultValue="True" Name="SortByPriority" Type="String" />
                          </SelectParameters>
                     </asp:ObjectDataSource> 
+                </div>
+                <div class="clr"></div>
+                <div class="img-special">
+                    <img src="assets/images/plvn.jpg" alt="" />
                 </div>
             </div>
             <div class="clr"></div>
