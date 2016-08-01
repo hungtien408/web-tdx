@@ -12,7 +12,7 @@
 ============================================================================================*/
 function initialize() {
     //10.7641152,106.6649788
-    var myLatlng = new google.maps.LatLng(10.812963, 106.709850);
+    var myLatlng = new google.maps.LatLng(10.802297, 106.641570);
     var mapOptions = {
         zoom: 15,
         center: myLatlng
@@ -35,8 +35,8 @@ function initialize() {
         '<div class="map-info">' +
             '<h4 class="title-ft">công ty cổ phần công nghệ trái đất xanh</h4>' +
             '<ul class="address">' +
-                '<li><span class="fa fa-map-marker"></span>82/14/6 Nguyễn Xí, Phường 26, Quận Bình Thạnh, TP. Hồ Chí Minh</li>' +
-                '<li><span class="fa fa-phone"></span>091 377 999 - (+84)8 6260 1272</li>' +
+                '<li><span class="fa fa-map-marker"></span>379 Cộng Hòa, Phường 13, Quận Tân Bình, Tp.HCM</li>' +
+                '<li><span class="fa fa-phone"></span>0977 921 239 (gặp SƠN)</li>' +
                 '<li><span class="fa fa-envelope"></span><a href="mailto:info@tdx.com.vn">info@tdx.com.vn</a></li>' +
             '</ul>' +
         '</div>'

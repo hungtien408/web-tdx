@@ -16,8 +16,8 @@
                 <div class="address-contact">
                     <h4 class="text-uppercase">địa chỉ của chúng tôi</h4>
                     <div class="wrap-node">Resourceful significant international agriculture underprivileged; world problem solving, improving quality local solutions technology developing nations transform the world. Medical advocate social entrepreneurship.</div>
-                    <p><span class="fa fa-map-marker"></span>82/14/6 Nguyễn Xí, Phường 26, Quận Bình Thạnh, TP. Hồ Chí Minh</p>
-                    <p><span class="fa fa-phone"></span>091 377 999 - (+84)8 6260 1272</p>
+                    <p><span class="fa fa-map-marker"></span>379 Cộng Hòa, Phường 13, Quận Tân Bình, Tp.HCM</p>
+                    <p><span class="fa fa-phone"></span>0977 921 239 (gặp SƠN)</p>
                     <p><span class="fa fa-envelope"></span><a href="mailto:sales@maichung.vn">info@tdx.com.vn</a></p>
                 </div>
             </div>
