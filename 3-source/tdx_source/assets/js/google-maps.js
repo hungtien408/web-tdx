@@ -37,7 +37,7 @@ function initialize() {
             '<ul class="address">' +
                 '<li><span class="fa fa-map-marker"></span>379 Cộng Hòa, Phường 13, Quận Tân Bình, Tp.HCM</li>' +
                 '<li><span class="fa fa-phone"></span>0977 921 239 (gặp SƠN)</li>' +
-                '<li><span class="fa fa-envelope"></span><a href="mailto:info@tdx.com.vn">info@tdx.com.vn</a></li>' +
+                '<li><span class="fa fa-envelope"></span><a href="mailto:info@thumuaphelieugiatot.com">info@thumuaphelieugiatot.com</a></li>' +
             '</ul>' +
         '</div>'
     ;

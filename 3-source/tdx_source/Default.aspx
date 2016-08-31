@@ -112,7 +112,7 @@
                         </div>
                         <div class="lh">
                             <div class="lh-info">
-                                <p>liên hệ: <a href="tel:0977921239" class="phone-call"><span>0977 921 239</span></a></p>
+                                <p>liên hệ: <a href="tel:0977921239" class="phone-call"><span>097 792 1239</span></a></p>
                                 <h3>Công ty cổ phần công nghệ Trái Đất Xanh</h3>
                             </div>
                         </div>
@@ -202,7 +202,7 @@
                 <div class="lienhe">
                     <div class="lh">
                         <div class="lh-info">
-                            <p>liên hệ: <a href="tel:0977921239" class="phone-call"><span>0977 921 239</span></a></p>
+                            <p>liên hệ: <a href="tel:0977921239" class="phone-call"><span>097 792 1239</span></a></p>
                             <h3>Công ty cổ phần công nghệ Trái Đất Xanh</h3>
                         </div>
                     </div>

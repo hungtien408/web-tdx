@@ -17,8 +17,8 @@
                     <h4 class="text-uppercase">địa chỉ của chúng tôi</h4>
                     <div class="wrap-node">Resourceful significant international agriculture underprivileged; world problem solving, improving quality local solutions technology developing nations transform the world. Medical advocate social entrepreneurship.</div>
                     <p><span class="fa fa-map-marker"></span>379 Cộng Hòa, Phường 13, Quận Tân Bình, Tp.HCM</p>
-                    <p><span class="fa fa-phone"></span>0977 921 239 (gặp SƠN)</p>
-                    <p><span class="fa fa-envelope"></span><a href="mailto:sales@maichung.vn">info@tdx.com.vn</a></p>
+                    <p><span class="fa fa-phone"></span>097 792 1239 (gặp SƠN)</p>
+                    <p><span class="fa fa-envelope"></span><a href="mailto:info@thumuaphelieugiatot.com">info@thumuaphelieugiatot.com</a></p>
                 </div>
             </div>
             <div class="col-md-6">
