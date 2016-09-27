@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="container">
         <section id="thu-mua" class="row">
-            <h3 class="title-name cl-orange">Thu mua phế liệu GIÁ CAO TẬN NƠI</h3>
+            <h1 class="title-name cl-orange">Thu mua phế liệu GIÁ CAO TẬN NƠI</h1>
             <div class="row">
                 <div class="content-left col-md-6">
                     <asp:ListView ID="lstCategoryPheLieu" runat="server" DataSourceID="odsCategoryPheLieu"
@@ -79,7 +79,7 @@
                     </div>
                     <div class="clr"></div>
                     <div class="img-special">
-                        <img src="assets/images/h6.jpg" alt="" />
+                        <img src="assets/images/h6.jpg" alt="Thu Mua Phe Lieu" />
                     </div>
                 </div>
                 <div class="clr"></div>
@@ -87,21 +87,21 @@
                     <div class="lienhe">
                         <div class="slider lh-slide">
                             <div>
-                                <img src="assets/images/slide.png" alt="" />
+                                <img src="assets/images/slide.png" alt="Thu Mua Phe Lieu" />
                                 <div class="slide-info">
                                     <p>thu mua</p>
                                     <h3>phế liệu sắt</h3>
                                 </div>
                             </div>
                             <div>
-                                <img src="assets/images/slide.png" alt="" />
+                                <img src="assets/images/slide.png" alt="Thu Mua Phe Lieu" />
                                 <div class="slide-info">
                                     <p>thu mua</p>
                                     <h3>phế liệu đồng</h3>
                                 </div>
                             </div>
                             <div>
-                                <img src="assets/images/slide.png" alt="" />
+                                <img src="assets/images/slide.png" alt="Thu Mua Phe Lieu" />
                                 <div class="slide-info">
                                     <p>thu mua</p>
                                     <h3>phế liệu nhôm</h3>
@@ -120,7 +120,7 @@
         </section>
         <section id="xu-ly" class="row">
             <div class="content-left col-md-6 pull-right">
-                <h3 class="title-name cl-green">xử lý môi trường</h3>
+                <h1 class="title-name cl-green">xử lý môi trường</h1>
                 <asp:ListView ID="ListView1" runat="server" DataSourceID="odsCategoryMoiTruong"
                     EnableModelValidation="True">
                         <ItemTemplate>
@@ -192,7 +192,7 @@
                 </div>
                 <div class="clr"></div>
                 <div class="img-special">
-                    <img src="assets/images/plvn.jpg" alt="" />
+                    <img src="assets/images/plvn.jpg" alt="Xu Ly Moi Truong" />
                 </div>
             </div>
             <div class="clr"></div>
